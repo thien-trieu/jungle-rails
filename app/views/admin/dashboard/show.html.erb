@@ -1,22 +1,30 @@
-<header class="page-header">
-<h1>Admin &raquo; Dashboard</h1>
-</header>
+<section class="admin-dashboard-index">
 
-<div class="well">
-    <table class="table">
-      <thead>
-        <tr>
-        <th scope="row"></th>
-          <th scope="col"><%= link_to 'Products', [:admin, :products], class: "nav-link" %></th>
-          <th scope="col">Category</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Count</th>
-          <td><%= @product_count %></td>
-          <td><%= @category_count %></td>
-        </tr>
-      </tbody>
-    </table>
+  <header class="page-header">
+    <h1>Admin &raquo; Dashboard</h1>
+  </header>
+
+  <div class="panel panel-default products">
+
+  <table class="table text-center">
+    <thead>
+      <tr class="row">
+        <th  class="col-sm-2"><%= link_to 'Products', [:admin, :products], class: "nav-link" %></th>
+        <th  class="col-sm-2"><%= link_to 'Category', [:admin, :categories], class: "nav-link" %></th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr class="row">
+    <td class="col-sm-2">
+      <%= @product_count %>
+    </td>
+    <td class="col-sm-2">
+      <%= @category_count %>
+    </td>
+  </tr>
+    </tbody>
+  </table>
+
 </div>
+
+</section>
