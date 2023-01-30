@@ -10,7 +10,7 @@ RSpec.describe Product, type: :model do
       expect(@product.errors).not_to include("can\'t be blank")
       end
 
-    it "Error for product instance if the 'name' is missing" do
+    it "Error for product instance if the 'name' is nil" do
       @category = Category.new(name: "myCategoryName")
       @product = Product.new(name: nil, price: "123", quantity: "5", category: @category)
       @product.save
@@ -24,14 +24,14 @@ RSpec.describe Product, type: :model do
       expect(@product.errors[:price]).to include("can\'t be blank")
       end
 
-    it "Error for product instance if the 'quantity' is missing" do
+    it "Error for product instance if the 'quantity' is nil" do
       @category = Category.new(name: "myCategoryName")
       @product = Product.new(name: "myProductName", price: "123", quantity: nil, category: @category)
       @product.save
       expect(@product.errors.full_messages).to include("Quantity can\'t be blank")
     end
 
-    it "Error for product instance if the 'category' is missing" do
+    it "Error for product instance if the 'category' is nil" do
       @category = Category.new(name: "myCategoryName")
       @product = Product.new(name: "myProductName", price: "123", quantity: "5", category: nil)
       @product.save
@@ -42,7 +42,6 @@ RSpec.describe Product, type: :model do
       @category = Category.new(name: "test")
       @product = Product.new(name: "product_test", price: nil, quantity: "5", category: @category)
       @product.save
- 
       expect(@product.errors.full_messages).to eq([])
     end
   end
