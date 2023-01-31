@@ -1,6 +1,5 @@
 describe('Product Details', () => {
   beforeEach(() => {
-   
     cy.visit('/')
   })
 
