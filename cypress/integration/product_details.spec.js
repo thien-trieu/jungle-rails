@@ -5,11 +5,11 @@ describe('Product Details', () => {
   })
 
   it("There is products on the page", () => {
-    cy.get(".products article").should("be.visible");
+    cy.get("article").should("be.visible");
   });
 
   it("There is 2 products on the page", () => {
-    cy.get(".products article").should("have.length", 2);
+    cy.get("article").should("have.length", 2);
   });
 
   it("Should navigate to Product Details", () => {
