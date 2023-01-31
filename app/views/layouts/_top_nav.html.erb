@@ -77,7 +77,7 @@
 
         <li class="nav-item end-0">
           <%= link_to cart_path, class: "nav-link " do %> <%= fa_icon "shopping-cart" %>
-          My Cart (<%= cart.count %>) <% end %>
+          My Cart (<%= cart.values.sum %>) <% end %>
         </li>
       </ul>
     </div>

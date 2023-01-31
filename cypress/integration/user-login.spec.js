@@ -37,7 +37,7 @@ describe('User Login', () => {
 
     cy.get('#navbarSupportedContent > :nth-child(2) > :nth-child(2) > .nav-link')
       .click()
-    cy.get(':nth-child(1) > .form-control').type("testing@testing.com")
+    cy.get(':nth-child(1) > .form-control').type("testing123@testing.com")
     cy.get(':nth-child(2) > .form-control').type("testing123")
 
     cy.get('form.action-form').submit()

@@ -24,4 +24,11 @@ describe('Add to cart', () => {
     .click({force: true})
     cy.get(':nth-child(4) > .nav-link').should('contain', 'My Cart (1)')
   });
+
+  it("Can add multiple items to the cart", () => {
+    cy.get(':nth-child(1) > div > .button_to > .btn')
+    .click({force: true})
+    cy.get(':nth-child(1) > div > .button_to > .btn').click({force: true})
+
+  });
 })
