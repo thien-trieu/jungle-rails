@@ -22,8 +22,6 @@ Admin Control
 - Ability to add additional categories
 - View dashboard summary
 
- ![Jungle Product](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_products.PNG)
-
   ![Jungle Cart](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_cart.PNG)
 
 ## Setup
