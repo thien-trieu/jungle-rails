@@ -16,13 +16,14 @@ Store Features
 - Check out as guest or as a login user
 - Stripe payment system
 
+![Jungle Cart](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_cart.PNG)
+
 Admin Control
 - Admin authentication requirement for all Admin actions
 - Ability to add and remove products
 - Ability to add additional categories
 - View dashboard summary
 
-  ![Jungle Cart](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_cart.PNG)
 
 ## Setup
 
