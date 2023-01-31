@@ -2,7 +2,7 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
- ![Jungle App](http://url/to/img.png)
+ ![Jungle App](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_guest.PNG)
 
 ## Setup
 
