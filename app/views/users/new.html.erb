@@ -9,8 +9,13 @@
   <div class="col-sm-6 col-sm-offset-1">
   <%= form_for :user, url: '/users' do |f| %>
     <div class="mb-3">
-      <label for="Name" class="form-label">Name</label>
-      <%= f.text_field :name, class: "form-control" %>
+      <label for="first_name" class="form-label">First Name</label>
+      <%= f.text_field :first_name, class: "form-control" %>
+    </div>
+
+    <div class="mb-3">
+    <label for="last_name" class="form-label">Last Name</label>
+    <%= f.text_field :last_name, class: "form-control" %>
     </div>
 
     <div class="mb-3">
