@@ -35,6 +35,24 @@ class ApplicationController < ActionController::Base
   end
   helper_method :current_user
 
+  def full_name?
+    if(current_user)  
+      @full_name = current_user.first_name + " " + current_user.last_name
+    else  
+    "Guest"
+    end  
+  end
+  helper_method :full_name?
+
+  def checkout_email?
+    if(current_user)  
+      current_user.email
+    else  
+    ""
+    end  
+  end
+  helper_method :checkout_email?
+
   def authorize
     redirect_to '/login' unless current_user
   end
