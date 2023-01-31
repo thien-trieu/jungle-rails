@@ -24,6 +24,8 @@ Admin Control
 - Ability to add additional categories
 - View dashboard summary
 
+![Jungle Admin](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_admin.PNG)
+
 
 ## Setup
 
