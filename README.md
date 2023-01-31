@@ -2,6 +2,8 @@
 
 A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
 
+ ![Jungle App](http://url/to/img.png)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
