@@ -1,8 +1,28 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+A full-Stack, RESTful, mini e-commerce application built with Ruby on Rails 
 
  ![Jungle App](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_guest.PNG)
+
+## Features
+
+User Athentication
+- Validation for user registration and log in
+- Utilizes bcrypt for hashed passwords
+
+Store Features
+- Product inventory displayed
+- Out of stock badge
+- Check out as guest or as a login user
+- Stripe payment system
+
+Admin Control
+- Admin authentication requirement for all Admin actions
+- Ability to add and remove products
+- Ability to add additional categories
+- View dashboard summary
+
+ ![Jungle Product](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_products.PNG)
 
 ## Setup
 
