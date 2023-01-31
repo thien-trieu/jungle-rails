@@ -24,6 +24,4 @@ describe('Add to cart', () => {
     .click({force: true})
     cy.get(':nth-child(4) > .nav-link').should('contain', 'My Cart (1)')
   });
-
-
 })
