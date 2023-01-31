@@ -24,6 +24,8 @@ Admin Control
 
  ![Jungle Product](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_products.PNG)
 
+  ![Jungle Cart](https://github.com/thien-trieu/jungle-rails/blob/master/docs/jungle_cart.PNG)
+
 ## Setup
 
 1. Run `bundle install` to install dependencies
