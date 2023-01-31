@@ -45,7 +45,7 @@ describe('User Login', () => {
     cy.get('#navbarSupportedContent > :nth-child(2) > :nth-child(2) > .nav-link')
       .contains('Logout')
 
-      cy.getCookie("_new_session").should('exist')
+    cy.getCookie("_new_session").should('exist')
   });
 
 
